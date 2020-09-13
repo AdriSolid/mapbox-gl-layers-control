@@ -29,7 +29,28 @@
       mapboxgl.accessToken =
         "pk.eyJ1IjoidmljbWl0Y2giLCJhIjoiY2swcGVwemN0MGt1ajNicGt3Z2UwbjN2OCJ9.Q0K2RBp8n9LBipcm3edDRQ";
 
-      var map = new mapboxgl.Map({
+      const LAYERS_INFO = [
+        {
+          id: "buildings-1",
+          color: "red",
+          xtrsnH: ["/", ["get", "height"], 2],
+          xtrsB: ["get", "min_height"],
+        },
+        {
+          id: "buildings-2",
+          color: "orange",
+          xtrsnH: ["get", "height"],
+          xtrsB: ["/", ["get", "height"], 2],
+        },
+        {
+          id: "buildings-3",
+          color: "lightblue",
+          xtrsnH: ["*", ["get", "height"], 1.5],
+          xtrsB: ["get", "height"],
+        },
+      ];
+
+      const map = new mapboxgl.Map({
         style: "mapbox://styles/mapbox/dark-v10",
         center: [-74.0066, 40.7135],
         zoom: 15.5,
@@ -59,28 +80,7 @@
       }
 
       map.on("load", function () {
-        var layersInfo = [
-          {
-            id: "buildings-1",
-            color: "red",
-            xtrsnH: ["/", ["get", "height"], 2],
-            xtrsB: ["get", "min_height"],
-          },
-          {
-            id: "buildings-2",
-            color: "orange",
-            xtrsnH: ["get", "height"],
-            xtrsB: ["/", ["get", "height"], 2],
-          },
-          {
-            id: "buildings-3",
-            color: "lightblue",
-            xtrsnH: ["*", ["get", "height"], 1.5],
-            xtrsB: ["get", "height"],
-          },
-        ];
-
-        layerGenerator(layersInfo);
+        layerGenerator(LAYERS_INFO);
 
         map.addControl(
           new MapboxLayersControl({
