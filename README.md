@@ -1,4 +1,4 @@
-# @mapbox-gl/layers-control
+# @adrisolid/mapbox-gl-layers-control
 
 > Mapbox GL JS Layers Control
 
@@ -6,6 +6,8 @@
 
 <h4>I need some caffeine to work :)</h4>
 <a href='https://ko-fi.com/R6R01NRMJ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+---
 
 <img src="./thumb.png" alt="thumb">
 
@@ -18,7 +20,7 @@
 ### Getting Started
 
 ```bash
-yarn add @mapbox-gl-style-switcher
+yarn add @adrisolid/mapbox-gl-layers-control
 ```
 
 ### Usage with Vanilla JS:
