@@ -9,7 +9,7 @@
 
 ---
 
-### [https://adrisolid.github.io/mapbox-gl-layers-control](Demo)
+### [Demo](https://adrisolid.github.io/mapbox-gl-layers-control/)
 
 <img src="./thumb.png" alt="thumb">
 
