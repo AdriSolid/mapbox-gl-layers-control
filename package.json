@@ -12,7 +12,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "prettier -c './lib/**/*.ts'",
-    "lint:fix": "prettier --write './lib/**/*.ts'"
+    "lint:fix": "prettier --write './lib/**/*.ts'",
+    "deploy": "git subtree push --prefix examples/with-react origin gh-pages"
   },
   "keywords": [
     "mapbox",

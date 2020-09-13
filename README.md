@@ -79,7 +79,7 @@ map.addControl(
 
 ### Usage with React
 
-[Check this out :)](https://github.com/AdriSolid/mapbox-gl-layers-control/blob/master/examples/basic.html)
+[Check this out :)](https://github.com/AdriSolid/mapbox-gl-layers-control/tree/master/examples/with-react)
 
 ### Properties:
 
