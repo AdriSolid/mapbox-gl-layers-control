@@ -1,18 +1,18 @@
 {
   "name": "@mapbox-gl/layers-control",
   "version": "0.1.0",
+  "homepage": "https://github.com/AdriSolid/mapbox-gl-layers-control#readme",
   "description": "Mapbox GL JS Layers Control",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "build:js": "babel lib --out-dir dist --extensions .ts --source-maps inline",
-    "lint": "prettier -c './lib/**/*.ts'",
-    "lint:fix": "prettier --write './lib/**/*.ts'"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:AdriSolid/mapbox-gl-layers-control.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "prettier -c './lib/**/*.ts'",
+    "lint:fix": "prettier --write './lib/**/*.ts'"
   },
   "keywords": [
     "mapbox",
@@ -24,7 +24,6 @@
   "bugs": {
     "url": "https://github.com/AdriSolid/mapbox-gl-layers-control/issues"
   },
-  "homepage": "",
   "dependencies": {
     "mapbox-gl": "^1.11.1"
   },
