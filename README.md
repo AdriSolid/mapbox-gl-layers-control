@@ -9,6 +9,8 @@
 
 ---
 
+### (https://adrisolid.github.io/mapbox-gl-layers-control)[Demo]
+
 <img src="./thumb.png" alt="thumb">
 
 ### Features
