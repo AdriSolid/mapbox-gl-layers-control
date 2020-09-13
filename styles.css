@@ -1,0 +1,28 @@
+.mapboxgl-ctrl-layers-control {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+}
+
+.mapboxgl-ctrl-layers-control__title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.mapboxgl-ctrl-layers-control__group-container:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.mapboxgl-ctrl-layers-control__all-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mapboxgl-ctrl-layers-control__layer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0.5rem;
+}
