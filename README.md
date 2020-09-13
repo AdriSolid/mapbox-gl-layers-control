@@ -4,6 +4,9 @@
 
 ---
 
+<h4>I need some caffeine to work :)</h4>
+<a href='https://ko-fi.com/R6R01NRMJ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 <img src="./thumb.png" alt="thumb">
 
 ### Features
@@ -18,12 +21,12 @@
 yarn add @mapbox-gl-style-switcher
 ```
 
-### Usage:
+### Usage with Vanilla JS:
 
 ```js
-import { MapboxLayersControl } from "@mapbox-gl/layers-control";
 import { Map } from "mapbox-gl";
-import "@mapbox-gl/layers-control/styles.css";
+import { MapboxLayersControl } from "@adrisolid/mapbox-gl-layers-control";
+import "@adrisolid/mapbox-gl-layers-control/styles.css";
 
 const map = new Map();
 map.addControl(
@@ -71,6 +74,10 @@ map.addControl(
   }),
 );
 ```
+
+### Usage with React
+
+[Check this out :)](https://github.com/AdriSolid/mapbox-gl-layers-control/blob/master/examples/basic.html)
 
 ### Properties:
 
