@@ -1,6 +1,6 @@
 {
   "name": "@adrisolid/mapbox-gl-layers-control",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/AdriSolid/mapbox-gl-layers-control#readme",
   "description": "Mapbox GL JS Layers Control",
   "main": "dist/index.js",
