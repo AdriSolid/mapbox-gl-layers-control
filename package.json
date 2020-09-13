@@ -8,7 +8,7 @@
     "build": "tsc",
     "build:js": "babel lib --out-dir dist --extensions .ts --source-maps inline",
     "lint": "prettier -c './lib/**/*.ts'",
-    "lint:fix": "prettier --write './src/**/*.ts'"
+    "lint:fix": "prettier --write './lib/**/*.ts'"
   },
   "repository": {
     "type": "git",

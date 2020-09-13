@@ -9,7 +9,7 @@
 ### Features
 
 - Create a layers control by wrapping Mapbox GL JS layers id's.
-- Layers could be grouped. If all layers of a group are `visible` 'select all' checkbox will be checked, otherwaise, will be unchecked.
+- Layers could be grouped. If all layers of a group are `visible` 'select all' checkbox will be checked, otherwise, will be unchecked.
 - Visibility is firstly controled under `visibility` layout property, if this property does not exists, Mapbox GL JS assumes that is `visible`.
 
 ### Getting Started
@@ -75,7 +75,7 @@ map.addControl(
 ### Properties:
 
 - **title** (Default: `""`): `string` Layers control title
-- **layersDefinition** (Default: `{}`): `LayersDefinition` Layers control definition. Following this type
+- **layersDefinition** (Default: `{}`): `LayersDefinition` Layers control definition. Following these types:
 
   ```ts
   type LayersInfo = Array<{ id: string; name: string }>;
